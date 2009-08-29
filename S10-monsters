@@ -1,0 +1,6 @@
+# I don't understand this
+
+typeset -ga preexec_functions
+typeset -ga precmd_functions
+typeset -ga chpwd_functions
+setopt prompt_subst

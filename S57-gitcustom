@@ -1,0 +1,3 @@
+# gitpatch() {
+#     git co master; git svn rebase; git co 
+# }

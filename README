@@ -1,0 +1,2 @@
+place this in .zsh.d/
+ln -s $HOME/.zsh.d/zshrc $HOME/.zshrc to begin

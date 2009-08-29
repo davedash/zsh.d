@@ -1,0 +1,2 @@
+# custom path info here
+export PATH=$HOME/bin
