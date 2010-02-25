@@ -1,9 +1,4 @@
-# prompt (if running screen, show window #)
-if [ x$WINDOW != x ]; then
-    export PS1="$WINDOW:%m:%~%# "
-else
-    export PS1='%m:%~ %# '
-fi
+export PS1="%m:%~%# "
 
 get_prompt() {
     if [[ -n $(get_git_prompt_info) ]]; then
