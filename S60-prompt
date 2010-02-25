@@ -8,3 +8,5 @@ get_prompt() {
     fi
 }
 RPROMPT='$(get_prompt)'
+
+setopt CORRECT
